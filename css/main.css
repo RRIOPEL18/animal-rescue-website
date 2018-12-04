@@ -2,6 +2,13 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+.banner-index {
+  background-image: url("../images/banner.svg");
+  min-height: 100px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 nav {
   background-color: #666;
   border-color: #666;
@@ -9,4 +16,8 @@ nav {
 
 span {
   color: #fff;
+}
+
+h1 {
+  width: 350px;
 }
