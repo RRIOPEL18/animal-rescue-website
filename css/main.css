@@ -1,9 +1,5 @@
 html {
-  font-family: 'Raleway', sans-serif;
-}
-
-.banner-index, .main-banner {
-
+  font-family: "Raleway", sans-serif;
 }
 
 nav {
@@ -21,9 +17,6 @@ h1 {
   width: 800px;
 }
 
-h2 {
-}
-
 footer {
   background-color: #f2f2f2;
 }
@@ -36,7 +29,6 @@ footer {
 svg {
   color: #000;
 }
-
 
 .main-banner {
   width: 100%;
