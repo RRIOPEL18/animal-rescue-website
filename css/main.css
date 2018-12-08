@@ -1,5 +1,5 @@
 html {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 nav {
@@ -10,7 +10,7 @@ nav {
 
 a {
   color: #fff;
-  text-decoration: none
+  text-decoration: none;
 }
 
 h1 {
