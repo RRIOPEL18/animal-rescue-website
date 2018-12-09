@@ -19,7 +19,31 @@ nav a:hover{
 }
 
 .first-header {
-  width: 800px;
+  width: 300px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .first-header {
+    width: 380px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .first-header {
+    width: 590px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .first-header {
+    width: 800px;
+  }
+
 }
 
 footer {
