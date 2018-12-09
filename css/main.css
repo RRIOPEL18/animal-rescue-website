@@ -18,6 +18,17 @@ nav a:hover {
   color: #000;
 }
 
+.logo {
+  border-color: none;
+  background-color: #fff;
+}
+
+.logo:hover {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 .first-header {
   width: 300px;
 }
