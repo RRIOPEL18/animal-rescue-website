@@ -13,6 +13,11 @@ a {
   text-decoration: none;
 }
 
+nav a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
 .first-header {
   width: 800px;
 }
