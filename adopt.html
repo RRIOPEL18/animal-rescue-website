@@ -18,26 +18,30 @@
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
-  <div role="navigation">
-    <div class="masthead grid grid-middle gutter">
-      <div class="left unit xs-1-4 s-1-4 m-1-4 l-1-4">
-        <i class="icon i-192"><img src="images/logo.svg" alt="#" aria-details="logo"></i>
+
+  <header role="banner">
+    <section>
+      <div>
+        <div class="masthead grid grid-middle gutter">
+          <div class="left unit xs-1-4 s-1-4 m-1-4 l-1-4">
+            <i class="icon i-192"><img src="images/logo.svg" alt="#" aria-details="logo"></i>
+          </div>
+          <div class="nav unit xs-3-4 s-3-4 m-3-4 l-3-4 pad-t-1-2 pad-b-1-2">
+            <nav role="navigation" id="nav" tabindex="0">
+              <ul class="list-group-inline mega push-0">
+                <li><a class="ib gutter-1-4" href="index.html"><span>Home</span></a></li>
+                <li><a class="ib gutter-1-4" href="adopt.html"><span>Adopt</span></a></li>
+                <li><a class="ib gutter-1-4" href="rescues.html"><span>Rescues</span></a></li>
+                <li><a class="ib gutter-1-4" href="rescues.html"><span>About</span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
-      <div class="nav unit xs-3-4 s-3-4 m-3-4 l-3-4 pad-t-1-2 pad-b-1-2">
-        <nav role="navigation" id="nav" tabindex="0">
-          <ul class="list-group-inline mega push-0">
-            <li><a class="ib gutter-1-4" href="index.html"><span>Home</span></a></li>
-            <li><a class="ib gutter-1-4" href="adopt.html"><span>Adopt</span></a></li>
-            <li><a class="ib gutter-1-4" href="rescues.html"><span>Rescues</span></a></li>
-            <li><a class="ib gutter-1-4" href="rescues.html"><span>About</span></a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
+    </section>
+  </header>
 
   <main role="main" id="main" tabindex="0">
-    <header role="banner">
       <h1 class="text-center">Adopt Today!</h1>
       <span class="bold push-0 gutter-2">Please fill in your information and we will send you a confirmation e-mail.</span>
       <p class="gutter-2">Your monetary donation will go towards the rescue fees (shelter pull fees, transportation ) and rehabilitation (behaviour and medical) of animals who are either suffering from injury or illness and need immediate medical treatment or have been neglected, abused and abandoned across Canada and abroad.</p>
@@ -105,7 +109,6 @@
           <button class="btn btn-ghost mega" type="submit">Send</button>
         </div>
       </form>
-    </header>
   </main>
 
   <footer role="contentinfo">
